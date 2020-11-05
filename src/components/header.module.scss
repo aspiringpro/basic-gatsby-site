@@ -1,26 +1,33 @@
-.link {
-    color: #999999;
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: black;
+    font-size: 1.5em;
     text-decoration: none;
 }
-.link:active {
+
+
+
+.navItem {
+    color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.navItem:hover {
     color: coral;
-    text-decoration: underline;
+    font-weight: bold;
 }
-
-
-header{
-    display: flex;
-    flex-direction: row;
-    
+.activeNavItem {
+    color: coral;
+    font-weight: bold;
 }
-ul {
+.navList {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     list-style-type: none;
-    
-}
-
-li {
-    margin: 1em;
-
+    margin: 0;
 }
