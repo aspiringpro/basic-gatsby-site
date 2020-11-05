@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer>Created by Marcus Reed &copy;2020</footer>
+        <footer>Created by <a href="email:marcusjamesreed@gmail.com">Marcus Reed</a> &copy;2020</footer>
     )
 }
 

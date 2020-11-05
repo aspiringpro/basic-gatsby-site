@@ -1,0 +1,26 @@
+.link {
+    color: #999999;
+    text-decoration: none;
+}
+.link:active {
+    color: coral;
+    text-decoration: underline;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 1em;
+
+}
